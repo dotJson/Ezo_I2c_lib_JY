@@ -5,6 +5,7 @@
 #include "Arduino.h"
 
 #include "Ezo_i2c.h"
+#include <TelnetStream.h>				//JY - included to support telnet prints originating from this file
 
 // these are common functions used by Atlas Scientific Ezo sample code
 // for printing various responses and info 

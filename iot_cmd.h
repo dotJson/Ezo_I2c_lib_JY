@@ -5,7 +5,7 @@
 #include "Arduino.h"
 
 #include <Ezo_i2c.h>
-
+#include <TelnetStream.h>
 
 bool receive_command(String &string_buffer);
 //used to receive commands from the serial port, print them,

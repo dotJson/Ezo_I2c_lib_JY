@@ -28,6 +28,7 @@ SOFTWARE
 #include "Arduino.h"
 
 #include <Wire.h>
+#include <TelnetStream.h>
 
 
 
